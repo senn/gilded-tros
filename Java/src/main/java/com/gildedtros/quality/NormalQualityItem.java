@@ -12,7 +12,6 @@ public class NormalQualityItem implements QualityItem {
 
     public NormalQualityItem(Item item) {
         this.item = item;
-        // interpretation of ambiguous requirement 'never more than 50'
         if (item.quality > MAX_QUALITY) {
             item.quality = MAX_QUALITY;
         }
