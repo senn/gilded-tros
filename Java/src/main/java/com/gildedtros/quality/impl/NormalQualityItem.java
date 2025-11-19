@@ -27,11 +27,10 @@ public class NormalQualityItem implements QualityItem {
 
     @Override
     public int getDegradationFactor() {
-        int degradeFactor = 1;
         if (item.sellIn <= 0) {
-            degradeFactor = 2;
+            return 2;
         }
-        return degradeFactor;
+        return 1;
     }
 
     @Override
