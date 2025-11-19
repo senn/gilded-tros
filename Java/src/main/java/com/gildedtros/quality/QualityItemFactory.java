@@ -1,8 +1,16 @@
 package com.gildedtros.quality;
 
 import com.gildedtros.Item;
+import com.gildedtros.quality.impl.BackstagePass;
+import com.gildedtros.quality.impl.GoodWine;
+import com.gildedtros.quality.impl.LegendaryItem;
+import com.gildedtros.quality.impl.NormalQualityItem;
+import com.gildedtros.quality.impl.SmellyItem;
 import org.jetbrains.annotations.NotNull;
 
+/**
+ * A factory that creates quality items based on their names.
+ */
 public class QualityItemFactory {
 
     private QualityItemFactory() {

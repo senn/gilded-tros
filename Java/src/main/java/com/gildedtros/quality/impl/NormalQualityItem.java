@@ -1,6 +1,7 @@
-package com.gildedtros.quality;
+package com.gildedtros.quality.impl;
 
 import com.gildedtros.Item;
+import com.gildedtros.quality.QualityItem;
 import lombok.Getter;
 
 @Getter
