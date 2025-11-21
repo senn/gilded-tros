@@ -11,7 +11,7 @@ import org.jetbrains.annotations.NotNull;
 /**
  * A factory that creates quality items based on their names.
  */
-public class QualityItemFactory {
+class QualityItemFactory {
 
     private QualityItemFactory() {
         throw new UnsupportedOperationException("Cannot instantiate this class");

@@ -1,6 +1,6 @@
 package com.gildedtros;
 
-import com.gildedtros.quality.QualityItemFactory;
+import com.gildedtros.quality.QualityItem;
 
 class GildedTros {
     Item[] items;
@@ -11,7 +11,7 @@ class GildedTros {
 
     public void updateQuality() {
         for (Item item : items) {
-            QualityItemFactory.create(item).updateQuality();
+            QualityItem.of(item).updateQuality();
         }
     }
 }
